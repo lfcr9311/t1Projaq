@@ -32,8 +32,4 @@ public class ClienteModel {
     this.email = email;
   }
 
-  @Override
-  public String toString() {
-    return "AplicativoModel [id=" + id + ", nome=" + nome + ", Email=" + email + "]";
-  }
 }

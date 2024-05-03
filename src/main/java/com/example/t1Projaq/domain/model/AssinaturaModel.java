@@ -52,10 +52,4 @@ public class AssinaturaModel {
     public void setFimVigencia(Date fimVigencia) {
         this.fimVigencia = fimVigencia;
     }
-
-    @Override
-    public String toString() {
-        return "AssinaturaModel [id=" + id + ", aplicativo=" + aplicativo + ", cliente=" + cliente + ", inicioVigencia="
-                + inicioVigencia + ", fimVigencia=" + fimVigencia + "]";
-    }
 }

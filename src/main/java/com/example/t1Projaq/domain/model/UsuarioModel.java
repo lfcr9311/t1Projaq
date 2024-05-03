@@ -25,8 +25,4 @@ public class UsuarioModel {
     this.senha = senha;
   }
 
-  @Override
-  public String toString() {
-    return "UsuarioModel [usuario=" + usuario + ", senha=" + senha + "]";
-  }
 }

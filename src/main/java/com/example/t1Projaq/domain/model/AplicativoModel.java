@@ -30,9 +30,4 @@ public class AplicativoModel {
   public void setCustoMensal(float custoMensal) {
     this.custoMensal = custoMensal;
   }
-
-  @Override
-  public String toString() {
-    return "AplicativoModel [id=" + id + ", nome=" + nome + ", custoMensal=" + custoMensal + "]";
-  }
 }

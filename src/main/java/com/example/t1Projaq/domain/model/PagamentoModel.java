@@ -40,9 +40,4 @@ public class PagamentoModel {
   public void setPromocao(String promocao) {
     this.promocao = promocao;
   }
-  @Override
-  public String toString() {
-    return "PagamentoModel [id=" + id + ", assinatura=" + assinatura + ", valorPago=" + valorPago + ", dataPagamento="
-        + dataPagamento + ", promocao=" + promocao + "]";
-  }
 }
